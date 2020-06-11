@@ -6,7 +6,7 @@ import httpAdapter from '@utils/httpAdapter';
 export const Home = ({ data }) => {
     return (
         <Layout>
-            <PlaceList places={data} />
+            <PlaceList {...data} />
         </Layout>
     );
 };
@@ -15,7 +15,7 @@ export async function getStaticProps() {
     const data = await httpAdapter.get('api');
     return {
         props: {
-            ...data
+            data
         }
     };
 }

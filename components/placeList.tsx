@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import styles from '@public/css/placeList.module.css';
 
-const PlaceList: React.FC = ({ places }: any) => {
-    const [searchResults, setSearchResults] = useState(places);
+const PlaceList: React.FC = ({ data }: any) => {
+    const [searchResults, setSearchResults] = useState(data);
 
     const handleInputChange = ({ target: { value = '' } }) => {
         const inputValue = value.toLowerCase().trim();
-        const results = places.filter(({ name }) => name.toLowerCase().includes(inputValue));
+        const results = data.filter(({ name }) => name.toLowerCase().includes(inputValue));
         setSearchResults(results);
     };
 
