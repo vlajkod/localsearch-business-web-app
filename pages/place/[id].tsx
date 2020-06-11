@@ -10,7 +10,7 @@ const Place: React.FC = ({ data }: any) => {
     const { name, address } = data;
     return (
         <Layout>
-            <div className={styles.container}>
+            <div data-test-id="placeDetail" className={styles.container}>
                 <h1 className={styles.title}>{name}</h1>
                 <p className={styles.address}>
                     <i className={styles.location}></i>

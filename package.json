@@ -8,6 +8,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "e2e": "cypress run",
+    "e2e:open": "cypress open",
     "type-check": "tsc --pretty --noEmit",
     "pretty": "prettier --write --config .prettierrc **/*.{js,ts,tsx}",
     "lint": "eslint . --ext .ts"
@@ -39,6 +41,7 @@
     "@types/react": "^16.9.36",
     "@typescript-eslint/eslint-plugin": "^3.2.0",
     "@typescript-eslint/parser": "^3.2.0",
+    "cypress": "^4.8.0",
     "eslint": "^7.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",

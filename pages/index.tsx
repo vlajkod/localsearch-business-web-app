@@ -30,13 +30,21 @@ const Home: React.FC = ({ data }: any) => {
         <Layout>
             <div className={styles.searchContainer}>
                 <span className="relative">
-                    <input type="text" value={searchValue} className={styles.search} onChange={handleInputChange} />
-                    {searchValue && <i className={styles.searchClear} onClick={clearInput}></i>}
+                    <input
+                        data-test-id="searchInput"
+                        type="text"
+                        value={searchValue}
+                        className={styles.search}
+                        onChange={handleInputChange}
+                    />
+                    {searchValue && <i data-test-id="searchClear" className={styles.searchClear} onClick={clearInput}></i>}
                 </span>
             </div>
             {searchResults.map(({ name, reference }) => (
                 <Link href="/place/[id]" as={`/place/${reference}`} key={reference}>
-                    <h2 className={styles.placeList}>{name}</h2>
+                    <h2 data-test-id={reference} className={styles.placeList}>
+                        {name}
+                    </h2>
                 </Link>
             ))}
         </Layout>

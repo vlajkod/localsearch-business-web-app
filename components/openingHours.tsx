@@ -24,7 +24,7 @@ const OpeningHours: React.FC = ({ openingHours }: any) => {
             </div>
             <div className={styles.backBtn}>
                 <Link href="/" as={`/`}>
-                    <a>Back</a>
+                    <a data-test-id="placeBackButton">Back</a>
                 </Link>
             </div>
         </>
