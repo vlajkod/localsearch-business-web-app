@@ -21,4 +21,15 @@
     width: 60%;
     padding: 20px 30px;
     border-radius: 30px;
+    border: none;
+}
+
+.searchClear {
+    cursor: pointer;
+    background: url('../images/close.svg') no-repeat;
+    height: 24px;
+    width: 40px;
+    position: absolute;
+    top: 2px;
+    right: 0;
 }

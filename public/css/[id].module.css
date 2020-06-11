@@ -1,0 +1,21 @@
+.container {
+    background: white;
+    padding: 2rem;
+    box-shadow: 1px 20px 20px 0px #ccc;
+}
+
+.title {
+    color: rgb(21, 62, 103);
+    font-weight: bold;
+}
+
+.address {
+    display: flex;
+}
+
+.location {
+    background: url('../images/location.svg') no-repeat;
+    height: 25px;
+    width: 30px;
+    display: inline-block;
+}

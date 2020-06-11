@@ -1,0 +1,47 @@
+.container {
+    margin-top: 15px;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 10px;
+    color: rgb(21, 62, 103);
+    font-weight: bold;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.table {
+    width: 70%;
+    display: flex;
+    margin-left: 40px;
+    flex: 1;
+    align-items: baseline;
+}
+
+.day {
+    text-transform: capitalize;
+}
+  
+.close {
+    color: darkred;
+}
+
+.column {
+    flex: 1;
+    margin: 3px 0;
+}
+
+.backBtn {
+    text-align: right;
+    margin-top: 24px;
+}
+
+.clock {
+    background: url('../images/access_time.svg') no-repeat;
+    height: 24px;
+    width: 40px;
+}

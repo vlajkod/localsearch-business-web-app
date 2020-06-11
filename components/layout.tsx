@@ -7,7 +7,7 @@ const Layout: React.FC = ({ children }) => (
     <div className={styles.container}>
         <Head>
             <title>Localsearch</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/images/favicon.ico" />
         </Head>
 
         <main className={styles.boxContainer}>

@@ -11,7 +11,7 @@
 }
 
 .banner {
-    background: url('../banner.png') no-repeat;
+    background: url('../images/banner.png') no-repeat;
     height: 260px;
     background-size: contain;
     background-position: center;
