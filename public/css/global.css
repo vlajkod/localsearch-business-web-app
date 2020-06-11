@@ -40,3 +40,12 @@ p {
 .relative {
   position: relative;
 }
+
+.errorContainer {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.bold {
+  font-weight: bold;
+}
