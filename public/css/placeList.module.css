@@ -1,0 +1,24 @@
+.placeList {
+    margin-top: 10px;
+    cursor: pointer;
+    background: white;
+    padding: 30px 50px;
+    box-shadow: 4px 4px 20px 9px #ccc;
+    border-radius: 5px
+}
+
+.placeList:hover {
+    background: #cbd7e6;
+}
+
+.searchContainer {
+    text-align: center;
+    padding: 15px 40px;
+    background-color: rgb(21, 62, 103);
+}
+
+.search {
+    width: 60%;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
