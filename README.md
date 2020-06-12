@@ -27,6 +27,7 @@ $ npm run dev
 ```
 
 Application is up and running on port 3000
+
 Configuration of the application can be changed in .env file
 
 Run cypress e2e tests
